@@ -67,3 +67,27 @@ Hasil dari program tersebut seperti berikut :<br>
 <br><br>
 <hr><br>
 
+# Tugas Latihan 2
+
+Pada bagian ini saya akan menyelesaikan tugas dari Dosen dalam materi Latihan 2, seperti gambar dibawah ini :<br>
+![Soal Latihan 2](picture/latihan2.PNG)<br>
+
+* Setelah saya membaca soal tersebut, saya membuat source code untuk program sederhana dengan source code dibawah ini :<br>
+
+``` python
+xangka=0
+while True:
+    xbilangan = int(input("Masukkan Bilangan : "))
+    if (xangka < xbilangan):
+        xangka=xbilangan
+    if (xbilangan == 0):
+        break
+
+print("Bilangan terbesar adalah: ",xangka)
+```
+
+* Didalam source code diatas saya menggunakan perulangan **While**, dengan syntax default seperti berikut :<br>
+>  while kondisi<br>
+>  perintah yang diulang<br><br>
+ 
+Pada source code tersebut dengan kodisi True / Benar. Jika kondisi tersebut benar, maka akan menam
